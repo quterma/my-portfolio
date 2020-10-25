@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Daniil Shapiro | Contact</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+			integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+			crossorigin="anonymous"
+		/>
+	</head>
+
+	<body>
+		<!-- start of left sidebar -->
+		<aside class="aside">
+			<div class="aside__avatar">
+				<img
+					class="aside__avatar__image"
+					src="./images/avatar_round.png"
+					alt="avatar"
+				/>
+			</div>
+			<nav class="aside__nav">
+				<a href="index.html" class="aside__nav__item">About</a>
+				<a href="projects.html" class="aside__nav__item">Projects</a>
+				<a href="labs.html" class="aside__nav__item">Labs</a>
+				<a href="#" class="aside__nav__item aside__nav__item--active"
+					>Journal</a
+				>
+				<a href="contact.html" class="aside__nav__item">Contact</a>
+			</nav>
+			<div class="aside__social">
+				<a
+					href="https://www.linkedin.com/in/daniil-shapiro-84b632154/"
+					target="_blank"
+					class="aside__social__item"
+				>
+					<i class="fab fa-linkedin-in aside__social__item__icon"></i>
+				</a>
+				<a
+					href="https://web.facebook.com/daniil.shapiro.7"
+					target="_blank"
+					class="aside__social__item"
+				>
+					<i class="fab fa-facebook-f aside__social__item__icon"></i>
+				</a>
+				<a
+					href="https://twitter.com/DaniilShapiro"
+					target="_blank"
+					class="aside__social__item"
+				>
+					<i class="fab fa-twitter aside__social__item__icon"></i>
+				</a>
+				<a
+					href="https://github.com/quterma"
+					target="_blank"
+					class="aside__social__item"
+				>
+					<i class="fab fa-github aside__social__item__icon"></i>
+				</a>
+			</div>
+		</aside>
+		<!-- end of left sidebar -->
+		<!-- start of right side main section -->
+		<main class="main">
+			<div class="main__title__wrapper">
+				<h2 class="main__title">Journal (under construction)</h2>
+			</div>
+			<div class="posts__container">
+				<div class="post">
+					<div class="post__title">11/07/2020</div>
+					<div class="post__text">
+						Recently started small video course by CS Dojo on the topic of Data
+						Structures & Algorithms. There was a funny task to write a...
+						<img src="./images/frog.jpg" alt="frog" class="post__image" />
+						... function to count a quantity of frog's ways to reach an opposite
+						riverside if there are stones across the river and frog can jump
+						only further and only by one or two stone per jump. It was quite
+						easy to solve after previous task to count a fibonacchi numbers.
+						Anyway, here i'd like to post a solution (hope it's correct :).
+						<code class="post__code">
+							const frogWays = (distance) => { <br />if
+							(!Number.isInteger(distance)) return; <br />
+							distance < 3 ? distance : frogWays(distance - 1) + (distance - 2);
+							};
+						</code>
+					</div>
+				</div>
+			</div>
+			<p class="copyrights__text">
+				Made with materials, designed by
+				<a class="copyrights__link" href="http://www.freepik.com"
+					>macrovector / Freepik</a
+				>, and
+				<a class="copyrights__link" href="https://dribbble.com/realvjy"
+					>Vijay Verma</a
+				>
+			</p>
+		</main>
+		<!-- end of right side main section -->
+	</body>
+</html>

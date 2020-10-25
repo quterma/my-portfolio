@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Daniil Shapiro | About</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+			integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+			crossorigin="anonymous"
+		/>
+		<script src="./js/skills.js"></script>
+	</head>
+	<body>
+		<!-- start of left sidebar -->
+		<aside class="aside">
+			<div class="aside__avatar">
+				<img
+					class="aside__avatar__image"
+					src="./images/avatar_round.png"
+					alt="avatar"
+				/>
+			</div>
+			<nav class="aside__nav">
+				<a href="#" class="aside__nav__item aside__nav__item--active">About</a>
+				<a href="projects.html" class="aside__nav__item">Projects</a>
+				<a href="labs.html" class="aside__nav__item">Labs</a>
+				<a href="journal.html" class="aside__nav__item">Journal</a>
+				<a href="contact.html" class="aside__nav__item">Contact</a>
+			</nav>
+			<div class="aside__social">
+				<a
+					href="https://www.linkedin.com/in/daniil-shapiro-84b632154/"
+					target="_blank"
+					class="aside__social__item"
+				>
+					<i class="fab fa-linkedin-in aside__social__item__icon"></i>
+				</a>
+				<a
+					href="https://web.facebook.com/daniil.shapiro.7"
+					target="_blank"
+					class="aside__social__item"
+				>
+					<i class="fab fa-facebook-f aside__social__item__icon"></i>
+				</a>
+				<a
+					href="https://twitter.com/DaniilShapiro"
+					target="_blank"
+					class="aside__social__item"
+				>
+					<i class="fab fa-twitter aside__social__item__icon"></i>
+				</a>
+				<a
+					href="https://github.com/quterma"
+					target="_blank"
+					class="aside__social__item"
+				>
+					<i class="fab fa-github aside__social__item__icon"></i>
+				</a>
+			</div>
+		</aside>
+		<!-- end of left sidebar -->
+		<!-- start of right side main section -->
+		<main class="main">
+			<!-- hipster on the main background -->
+			<img
+				class="main__about__avatar"
+				src="./images/avatar_laptop.png"
+				alt="big ava"
+			/>
+			<div class="main__title__wrapper">
+				<h2 class="main__title">About</h2>
+			</div>
+			<h1 class="main__about__name">
+				<span class="bold--400">daniil</span> shapiro<span
+					class="main__about__name__dot"
+				></span>
+			</h1>
+			<h3 class="main__about__profession">Front-End Developer</h3>
+			<p class="main__about__description">
+				Currently leveling my proficiency and practicing with new projects. Also
+				love to code in <span class="blue">JavaScript</span> and play
+				<a
+					href="https://lichess.org/@/quuuuu"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="blue"
+					>Chess</a
+				>
+			</p>
+			<!-- <div class="main__about__buttons">
+      <button class="button button--pink">Hire me</button>
+      <button class="button button--gray">Know more</button>
+    </div> -->
+			<div class="main__about__skills">
+				<h4 class="main__about__skills__title__text">
+					Acquirements<br />and skills
+				</h4>
+				<div class="main__about__skills__title__line"></div>
+				<div class="main__about__skills__items__container">
+					<!-- this container fills in dynamically with js-->
+				</div>
+				<i
+					class="fas fa-angle-double-right main__about__skills__items__arrow"
+					onmousedown="scrolling();"
+				></i>
+			</div>
+			<blockquote class="main__about__quote">
+				<i class="fas fa-quote-left main__about__quote__image"></i>
+				<h3 class="main__about__quote__text">
+					Make it work, make it right, make it fast
+				</h3>
+				<cite class="main__about__quote__author">
+					<a
+						href="https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist)"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Ralph Johnson</a
+					>
+				</cite>
+			</blockquote>
+			<p class="copyrights__text">
+				Made with materials, designed by
+				<a class="copyrights__link" href="http://www.freepik.com"
+					>macrovector / Freepik</a
+				>, and
+				<a class="copyrights__link" href="https://dribbble.com/realvjy"
+					>Vijay Verma</a
+				>
+			</p>
+		</main>
+		<!-- end of right side main section -->
+	</body>
+</html>

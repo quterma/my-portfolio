@@ -1,0 +1,70 @@
+{
+  "skills": [
+    {
+      "title": "HTML",
+      "icon": "fab fa-html5",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "CSS",
+      "icon": "fab fa-css3-alt",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "JavaScript",
+      "icon": "fab fa-js-square",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "Git",
+      "icon": "fab fa-git-alt",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "React",
+      "icon": "fab fa-react",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "Sass",
+      "icon": "fab fa-sass",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "NodeJS",
+      "icon": "fab fa-node",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "Photoshop",
+      "icon": "fab fa-adobe",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "VueJS",
+      "icon": "fab fa-vuejs",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "Npm",
+      "icon": "fab fa-npm",
+      "level": "",
+      "link": ""
+    },
+    {
+      "title": "Php",
+      "icon": "fab fa-php",
+      "level": "",
+      "link": ""
+    }
+  ]
+}

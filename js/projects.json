@@ -1,0 +1,64 @@
+{
+	"projects": [
+		{
+			"title": "Hangman game - study project",
+			"image": "../images/projects/hangman-1.jpg",
+			"link": "https://quu-hangman.netlify.app/",
+			"isFinished": true
+		},
+		{
+			"title": "Portfolio website",
+			"image": "../images/projects/KES-1.jpg",
+			"link": "https://quu-kes-portfolio.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "Manga library website",
+			"image": "../images/projects/manga-1.jpg",
+			"link": "https://quu-mangalibrary.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "Layout - study project",
+			"image": "../images/projects/ebook-layout-1.jpg",
+			"link": "https://quu-minipsd-1.netlify.app/",
+			"isFinished": true
+		},
+		{
+			"title": "Progress bars - study project",
+			"image": "../images/projects/progbars.jpg",
+			"link": "https://quu-progbar.netlify.app/",
+			"isFinished": true
+		},
+		{
+			"title": "Clock - study project",
+			"image": "../images/projects/clock.jpg",
+			"link": "https://quu-clock.netlify.app/",
+			"isFinished": true
+		},
+		{
+			"title": "Dice calculator - study project",
+			"image": "../images/projects/dice-1.jpg",
+			"link": "https://quu-dicecalc.netlify.app/",
+			"isFinished": true
+		},
+		{
+			"title": "Slider - study project",
+			"image": "../images/projects/slider-1.jpg",
+			"link": "https://quu-slider.netlify.app/",
+			"isFinished": true
+		},
+		{
+			"title": "Milk store landing website",
+			"image": "../images/projects/milk-1.jpg",
+			"link": "https://yulia-milk.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "Social network React study project",
+			"image": "../images/projects/react.svg",
+			"link": "https://github.com/quterma/kama-social",
+			"isFinished": false
+		}
+	]
+}
