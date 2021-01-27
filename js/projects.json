@@ -1,63 +1,87 @@
 {
 	"projects": [
 		{
-			"title": "Hangman game - study project",
-			"image": "../images/projects/hangman-1.jpg",
-			"link": "https://quu-hangman.netlify.app/",
+			"title": "KanBan. React, Redux, Styled-components, DrugNDrop.",
+			"image": "../images/projects/kanban.jpg",
+			"link": "https://quterma.github.io/kanban-board/",
 			"isFinished": true
 		},
 		{
-			"title": "Portfolio website",
+			"title": "Portfolio. HTML, CSS, JS.",
 			"image": "../images/projects/KES-1.jpg",
 			"link": "https://quu-kes-portfolio.netlify.app/",
+			"isFinished": true
+		},
+		{
+			"title": "Internship 2021. JS, Bootstrap, Firebase.",
+			"image": "../images/projects/Internship-1.jpg",
+			"link": "https://quterma.gitlab.io/js-internship/",
+			"isFinished": true
+		},
+		{
+			"title": "Hangman. JS study.",
+			"image": "../images/projects/hangman-1.jpg",
+			"link": "https://quu-hangman.netlify.app/",
 			"isFinished": false
 		},
 		{
-			"title": "Manga library website",
+			"title": "User manager. React study.",
+			"image": "../images/projects/users.jpg",
+			"link": "https://quterma.github.io/usersControl-test/",
+			"isFinished": true
+		},
+		{
+			"title": "Library. PS landing and JS study.",
 			"image": "../images/projects/manga-1.jpg",
 			"link": "https://quu-mangalibrary.netlify.app/",
 			"isFinished": false
 		},
 		{
-			"title": "Layout - study project",
-			"image": "../images/projects/ebook-layout-1.jpg",
-			"link": "https://quu-minipsd-1.netlify.app/",
-			"isFinished": true
-		},
-		{
-			"title": "Progress bars - study project",
-			"image": "../images/projects/progbars.jpg",
-			"link": "https://quu-progbar.netlify.app/",
-			"isFinished": true
-		},
-		{
-			"title": "Clock - study project",
-			"image": "../images/projects/clock.jpg",
-			"link": "https://quu-clock.netlify.app/",
-			"isFinished": true
-		},
-		{
-			"title": "Dice calculator - study project",
-			"image": "../images/projects/dice-1.jpg",
-			"link": "https://quu-dicecalc.netlify.app/",
-			"isFinished": true
-		},
-		{
-			"title": "Slider - study project",
-			"image": "../images/projects/slider-1.jpg",
-			"link": "https://quu-slider.netlify.app/",
-			"isFinished": true
-		},
-		{
-			"title": "Milk store landing website",
-			"image": "../images/projects/milk-1.jpg",
-			"link": "https://yulia-milk.netlify.app/",
+			"title": "Social network. React, redux, rest-API study.",
+			"image": "../images/projects/kama-social.jpg",
+			"link": "https://quterma.github.io/kama-social/",
 			"isFinished": false
 		},
 		{
-			"title": "Social network React study project",
-			"image": "../images/projects/react.svg",
-			"link": "https://github.com/quterma/kama-social",
+			"title": "Layout. PS, html, css study.",
+			"image": "../images/projects/ebook-layout-1.jpg",
+			"link": "https://quu-minipsd-1.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "MTC test task. JS.",
+			"image": "../images/projects/mtc-test.jpg",
+			"link": "https://mtc-ryazan-test.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "Progress bars. JS study.",
+			"image": "../images/projects/progbars.jpg",
+			"link": "https://quu-progbar.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "Clocks. JS study.",
+			"image": "../images/projects/clock.jpg",
+			"link": "https://quu-clock.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "Dice calculator. JS study.",
+			"image": "../images/projects/dice-1.jpg",
+			"link": "https://quu-dicecalc.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "Slider. JS study.",
+			"image": "../images/projects/slider-1.jpg",
+			"link": "https://quu-slider.netlify.app/",
+			"isFinished": false
+		},
+		{
+			"title": "Store landing. HTML, css, js study.",
+			"image": "../images/projects/milk-1.jpg",
+			"link": "https://yulia-milk.netlify.app/",
 			"isFinished": false
 		}
 	]

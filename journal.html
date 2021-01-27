@@ -6,10 +6,7 @@
 		<title>Daniil Shapiro | Contact</title>
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/styles.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
 			rel="stylesheet"
@@ -27,52 +24,66 @@
 	</head>
 
 	<body>
+		<!-- start of mobile header -->
+		<header class="mobile__header">
+			<div class="dropdown">
+				<button class="dropdown__button"><i class="fas fa-bars"></i></button>
+				<ul class="dropdown__content">
+					<li><a href="index.html" class="dropdown__item">About</a></li>
+					<li><a href="projects.html" class="dropdown__item">Projects</a></li>
+					<li><a href="labs.html" class="dropdown__item">Labs</a></li>
+					<li><a href="#" class="dropdown__item">Journal</a></li>
+					<li><a href="contact.html" class="dropdown__item">Contact</a></li>
+				</ul>
+			</div>
+			<div class="aside__social">
+				<a href="https://www.linkedin.com/in/daniil-shapiro-84b632154/" target="_blank" class="aside__social__item">
+					<i class="fab fa-linkedin-in aside__social__item__icon"></i>
+				</a>
+				<a href="https://web.facebook.com/daniil.shapiro.7" target="_blank" class="aside__social__item">
+					<i class="fab fa-facebook-f aside__social__item__icon"></i>
+				</a>
+				<a href="https://twitter.com/DaniilShapiro" target="_blank" class="aside__social__item">
+					<i class="fab fa-twitter aside__social__item__icon"></i>
+				</a>
+				<a href="https://github.com/quterma" target="_blank" class="aside__social__item">
+					<i class="fab fa-github aside__social__item__icon"></i>
+				</a>
+				<a href="https://www.codewars.com/users/Quterma" target="_blank" class="aside__social__item">
+					<i class="fas fa-fan aside__social__item__icon"></i>
+				</a>
+			</div>
+		</header>
+		<!-- end of mobile header -->
 		<!-- start of left sidebar -->
 		<aside class="aside">
 			<div class="aside__avatar">
-				<img
-					class="aside__avatar__image"
-					src="./images/avatar_round.png"
-					alt="avatar"
-				/>
+				<img class="aside__avatar__image" src="./images/avatar_round.png" alt="avatar" />
 			</div>
 			<nav class="aside__nav">
-				<a href="index.html" class="aside__nav__item">About</a>
-				<a href="projects.html" class="aside__nav__item">Projects</a>
-				<a href="labs.html" class="aside__nav__item">Labs</a>
-				<a href="#" class="aside__nav__item aside__nav__item--active"
-					>Journal</a
-				>
-				<a href="contact.html" class="aside__nav__item">Contact</a>
+				<ul class="aside__menu">
+					<li><a href="index.html" class="aside__nav__item">About</a></li>
+					<li><a href="projects.html" class="aside__nav__item">Projects</a></li>
+					<li><a href="labs.html" class="aside__nav__item">Labs</a></li>
+					<li><a href="#" class="aside__nav__item aside__nav__item--active">Journal</a></li>
+					<li><a href="contact.html" class="aside__nav__item">Contact</a></li>
+				</ul>
 			</nav>
 			<div class="aside__social">
-				<a
-					href="https://www.linkedin.com/in/daniil-shapiro-84b632154/"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://www.linkedin.com/in/daniil-shapiro-84b632154/" target="_blank" class="aside__social__item">
 					<i class="fab fa-linkedin-in aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://web.facebook.com/daniil.shapiro.7"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://web.facebook.com/daniil.shapiro.7" target="_blank" class="aside__social__item">
 					<i class="fab fa-facebook-f aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://twitter.com/DaniilShapiro"
-					target="_blank"
-					class="aside__social__item"
-				>
-					<i class="fab fa-twitter aside__social__item__icon"></i>
+				<a href="https://gitlab.com/Quterma" target="_blank" class="aside__social__item">
+					<i class="fab fa-gitlab aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://github.com/quterma"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://github.com/quterma" target="_blank" class="aside__social__item">
 					<i class="fab fa-github aside__social__item__icon"></i>
+				</a>
+				<a href="https://www.codewars.com/users/Quterma" target="_blank" class="aside__social__item">
+					<i class="fas fa-fan aside__social__item__icon"></i>
 				</a>
 			</div>
 		</aside>
@@ -86,32 +97,25 @@
 				<div class="post">
 					<div class="post__title">11/07/2020</div>
 					<div class="post__text">
-						Recently started small video course by CS Dojo on the topic of Data
-						Structures & Algorithms. There was a funny task to write a...
+						Recently started small video course by CS Dojo on the topic of Data Structures & Algorithms. There was a
+						funny task to write a...
 						<img src="./images/frog.jpg" alt="frog" class="post__image" />
-						... function to count a quantity of frog's ways to reach an opposite
-						riverside if there are stones across the river and frog can jump
-						only further and only by one or two stone per jump. It was quite
-						easy to solve after previous task to count a fibonacchi numbers.
-						Anyway, here i'd like to post a solution (hope it's correct :).
+						... function to count a quantity of frog's ways to reach an opposite riverside if there are stones across
+						the river and frog can jump only further and only by one or two stone per jump. It was quite easy to solve
+						after previous task to count a fibonacchi numbers. Anyway, here i'd like to post a solution (hope it's
+						correct :).
 						<code class="post__code">
-							const frogWays = (distance) => { <br />if
-							(!Number.isInteger(distance)) return; <br />
-							distance < 3 ? distance : frogWays(distance - 1) + (distance - 2);
-							};
+							const frogWays = (distance) => { <br />if (!Number.isInteger(distance)) return; <br />
+							distance < 3 ? distance : frogWays(distance - 1) + (distance - 2); };
 						</code>
 					</div>
 				</div>
 			</div>
-			<p class="copyrights__text">
+			<!-- <p class="copyrights__text">
 				Made with materials, designed by
-				<a class="copyrights__link" href="http://www.freepik.com"
-					>macrovector / Freepik</a
-				>, and
-				<a class="copyrights__link" href="https://dribbble.com/realvjy"
-					>Vijay Verma</a
-				>
-			</p>
+				<a class="copyrights__link" href="http://www.freepik.com">macrovector / Freepik</a>, and
+				<a class="copyrights__link" href="https://dribbble.com/realvjy">Vijay Verma</a>
+			</p> -->
 		</main>
 		<!-- end of right side main section -->
 	</body>

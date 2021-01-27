@@ -6,10 +6,7 @@
 		<title>Daniil Shapiro | Projects</title>
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/styles.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
 			rel="stylesheet"
@@ -28,52 +25,66 @@
 	</head>
 
 	<body>
+		<!-- start of mobile header -->
+		<header class="mobile__header">
+			<div class="dropdown">
+				<button class="dropdown__button"><i class="fas fa-bars"></i></button>
+				<ul class="dropdown__content">
+					<li><a href="index.html" class="dropdown__item">About</a></li>
+					<li><a href="#" class="dropdown__item">Projects</a></li>
+					<li><a href="labs.html" class="dropdown__item">Labs</a></li>
+					<li><a href="journal.html" class="dropdown__item">Journal</a></li>
+					<li><a href="contact.html" class="dropdown__item">Contact</a></li>
+				</ul>
+			</div>
+			<div class="aside__social">
+				<a href="https://www.linkedin.com/in/daniil-shapiro-84b632154/" target="_blank" class="aside__social__item">
+					<i class="fab fa-linkedin-in aside__social__item__icon"></i>
+				</a>
+				<a href="https://web.facebook.com/daniil.shapiro.7" target="_blank" class="aside__social__item">
+					<i class="fab fa-facebook-f aside__social__item__icon"></i>
+				</a>
+				<a href="https://gitlab.com/Quterma" target="_blank" class="aside__social__item">
+					<i class="fab fa-gitlab aside__social__item__icon"></i>
+				</a>
+				<a href="https://github.com/quterma" target="_blank" class="aside__social__item">
+					<i class="fab fa-github aside__social__item__icon"></i>
+				</a>
+				<a href="https://www.codewars.com/users/Quterma" target="_blank" class="aside__social__item">
+					<i class="fas fa-fan aside__social__item__icon"></i>
+				</a>
+			</div>
+		</header>
+		<!-- end of mobile header -->
 		<!-- start of left sidebar -->
 		<aside class="aside">
 			<div class="aside__avatar">
-				<img
-					class="aside__avatar__image"
-					src="./images/avatar_round.png"
-					alt="avatar"
-				/>
+				<img class="aside__avatar__image" src="./images/avatar_round.png" alt="avatar" />
 			</div>
 			<nav class="aside__nav">
-				<a href="index.html" class="aside__nav__item">About</a>
-				<a href="#" class="aside__nav__item aside__nav__item--active"
-					>Projects</a
-				>
-				<a href="labs.html" class="aside__nav__item">Labs</a>
-				<a href="journal.html" class="aside__nav__item">Journal</a>
-				<a href="contact.html" class="aside__nav__item">Contact</a>
+				<ul class="aside__menu">
+					<li><a href="index.html" class="aside__nav__item">About</a></li>
+					<li><a href="#" class="aside__nav__item aside__nav__item--active">Projects</a></li>
+					<li><a href="labs.html" class="aside__nav__item">Labs</a></li>
+					<li><a href="journal.html" class="aside__nav__item">Journal</a></li>
+					<li><a href="contact.html" class="aside__nav__item">Contact</a></li>
+				</ul>
 			</nav>
 			<div class="aside__social">
-				<a
-					href="https://www.linkedin.com/in/daniil-shapiro-84b632154/"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://www.linkedin.com/in/daniil-shapiro-84b632154/" target="_blank" class="aside__social__item">
 					<i class="fab fa-linkedin-in aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://web.facebook.com/daniil.shapiro.7"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://web.facebook.com/daniil.shapiro.7" target="_blank" class="aside__social__item">
 					<i class="fab fa-facebook-f aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://twitter.com/DaniilShapiro"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://twitter.com/DaniilShapiro" target="_blank" class="aside__social__item">
 					<i class="fab fa-twitter aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://github.com/quterma"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://github.com/quterma" target="_blank" class="aside__social__item">
 					<i class="fab fa-github aside__social__item__icon"></i>
+				</a>
+				<a href="https://www.codewars.com/users/Quterma" target="_blank" class="aside__social__item">
+					<i class="fas fa-fan aside__social__item__icon"></i>
 				</a>
 			</div>
 		</aside>
@@ -91,15 +102,11 @@
 			<div class="main__projects__container">
 				<!-- this container filling dynamically with js with scrolling inside it -->
 			</div>
-			<p class="copyrights__text">
+			<!-- <p class="copyrights__text">
 				Made with materials, designed by
-				<a class="copyrights__link" href="http://www.freepik.com"
-					>macrovector / Freepik</a
-				>, and
-				<a class="copyrights__link" href="https://dribbble.com/realvjy"
-					>Vijay Verma</a
-				>
-			</p>
+				<a class="copyrights__link" href="http://www.freepik.com">macrovector / Freepik</a>, and
+				<a class="copyrights__link" href="https://dribbble.com/realvjy">Vijay Verma</a>
+			</p> -->
 		</main>
 		<!-- end of right side main section -->
 	</body>

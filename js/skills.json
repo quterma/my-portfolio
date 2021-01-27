@@ -49,14 +49,16 @@
       "link": ""
     },
     {
-      "title": "VueJS",
-      "icon": "fab fa-vuejs",
-      "level": "",
-      "link": ""
-    },
-    {
       "title": "Npm",
       "icon": "fab fa-npm",
+      "level": "",
+      "link": ""
+    }
+  ],
+  "future" : [
+    {
+      "title": "VueJS",
+      "icon": "fab fa-vuejs",
       "level": "",
       "link": ""
     },
@@ -68,3 +70,4 @@
     }
   ]
 }
+

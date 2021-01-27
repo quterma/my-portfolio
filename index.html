@@ -6,10 +6,7 @@
 		<title>Daniil Shapiro | About</title>
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/styles.css" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
 			rel="stylesheet"
@@ -27,50 +24,66 @@
 		<script src="./js/skills.js"></script>
 	</head>
 	<body>
+		<!-- start of mobile header -->
+		<header class="mobile__header">
+			<div class="dropdown">
+				<button class="dropdown__button"><i class="fas fa-bars"></i></button>
+				<ul class="dropdown__content">
+					<li><a href="#" class="dropdown__item">About</a></li>
+					<li><a href="projects.html" class="dropdown__item">Projects</a></li>
+					<li><a href="labs.html" class="dropdown__item">Labs</a></li>
+					<li><a href="journal.html" class="dropdown__item">Journal</a></li>
+					<li><a href="contact.html" class="dropdown__item">Contact</a></li>
+				</ul>
+			</div>
+			<div class="aside__social">
+				<a href="https://www.linkedin.com/in/daniil-shapiro-84b632154/" target="_blank" class="aside__social__item">
+					<i class="fab fa-linkedin-in aside__social__item__icon"></i>
+				</a>
+				<a href="https://web.facebook.com/daniil.shapiro.7" target="_blank" class="aside__social__item">
+					<i class="fab fa-facebook-f aside__social__item__icon"></i>
+				</a>
+				<a href="https://twitter.com/DaniilShapiro" target="_blank" class="aside__social__item">
+					<i class="fab fa-twitter aside__social__item__icon"></i>
+				</a>
+				<a href="https://github.com/quterma" target="_blank" class="aside__social__item">
+					<i class="fab fa-github aside__social__item__icon"></i>
+				</a>
+				<a href="https://www.codewars.com/users/Quterma" target="_blank" class="aside__social__item">
+					<i class="fas fa-fan aside__social__item__icon"></i>
+				</a>
+			</div>
+		</header>
+		<!-- end of mobile header -->
 		<!-- start of left sidebar -->
 		<aside class="aside">
 			<div class="aside__avatar">
-				<img
-					class="aside__avatar__image"
-					src="./images/avatar_round.png"
-					alt="avatar"
-				/>
+				<img class="aside__avatar__image" src="./images/avatar_round.png" alt="avatar" />
 			</div>
 			<nav class="aside__nav">
-				<a href="#" class="aside__nav__item aside__nav__item--active">About</a>
-				<a href="projects.html" class="aside__nav__item">Projects</a>
-				<a href="labs.html" class="aside__nav__item">Labs</a>
-				<a href="journal.html" class="aside__nav__item">Journal</a>
-				<a href="contact.html" class="aside__nav__item">Contact</a>
+				<ul class="aside__menu">
+					<li><a href="#" class="aside__nav__item aside__nav__item--active">About</a></li>
+					<li><a href="projects.html" class="aside__nav__item">Projects</a></li>
+					<li><a href="labs.html" class="aside__nav__item">Labs</a></li>
+					<li><a href="journal.html" class="aside__nav__item">Journal</a></li>
+					<li><a href="contact.html" class="aside__nav__item">Contact</a></li>
+				</ul>
 			</nav>
 			<div class="aside__social">
-				<a
-					href="https://www.linkedin.com/in/daniil-shapiro-84b632154/"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://www.linkedin.com/in/daniil-shapiro-84b632154/" target="_blank" class="aside__social__item">
 					<i class="fab fa-linkedin-in aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://web.facebook.com/daniil.shapiro.7"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://web.facebook.com/daniil.shapiro.7" target="_blank" class="aside__social__item">
 					<i class="fab fa-facebook-f aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://twitter.com/DaniilShapiro"
-					target="_blank"
-					class="aside__social__item"
-				>
-					<i class="fab fa-twitter aside__social__item__icon"></i>
+				<a href="https://gitlab.com/Quterma" target="_blank" class="aside__social__item">
+					<i class="fab fa-gitlab aside__social__item__icon"></i>
 				</a>
-				<a
-					href="https://github.com/quterma"
-					target="_blank"
-					class="aside__social__item"
-				>
+				<a href="https://github.com/quterma" target="_blank" class="aside__social__item">
 					<i class="fab fa-github aside__social__item__icon"></i>
+				</a>
+				<a href="https://www.codewars.com/users/Quterma" target="_blank" class="aside__social__item">
+					<i class="fas fa-fan aside__social__item__icon"></i>
 				</a>
 			</div>
 		</aside>
@@ -78,53 +91,34 @@
 		<!-- start of right side main section -->
 		<main class="main">
 			<!-- hipster on the main background -->
-			<img
-				class="main__about__avatar"
-				src="./images/avatar_laptop.png"
-				alt="big ava"
-			/>
+			<img class="main__about__avatar" src="./images/avatar_laptop.png" alt="big ava" />
 			<div class="main__title__wrapper">
 				<h2 class="main__title">About</h2>
 			</div>
 			<h1 class="main__about__name">
-				<span class="bold--400">daniil</span> shapiro<span
-					class="main__about__name__dot"
-				></span>
+				<span class="bold--400">daniil</span> shapiro<span class="main__about__name__dot"></span>
 			</h1>
 			<h3 class="main__about__profession">Front-End Developer</h3>
 			<p class="main__about__description">
-				Currently leveling my proficiency and practicing with new projects. Also
-				love to code in <span class="blue">JavaScript</span> and play
-				<a
-					href="https://lichess.org/@/quuuuu"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="blue"
-					>Chess</a
-				>
+				Currently leveling my proficiency and practicing with new projects. Also love to code in
+				<span class="blue">JavaScript</span> and <span class="blue">React</span> and play
+				<a href="https://youtu.be/0fkB9I17KcI" target="_blank" rel="noopener noreferrer" class="blue">Chess</a>
 			</p>
 			<!-- <div class="main__about__buttons">
       <button class="button button--pink">Hire me</button>
       <button class="button button--gray">Know more</button>
     </div> -->
 			<div class="main__about__skills">
-				<h4 class="main__about__skills__title__text">
-					Acquirements<br />and skills
-				</h4>
+				<h4 class="main__about__skills__title__text">Acquirements<br />and skills</h4>
 				<div class="main__about__skills__title__line"></div>
 				<div class="main__about__skills__items__container">
 					<!-- this container fills in dynamically with js-->
 				</div>
-				<i
-					class="fas fa-angle-double-right main__about__skills__items__arrow"
-					onmousedown="scrolling();"
-				></i>
+				<i class="fas fa-angle-double-right main__about__skills__items__arrow" onmousedown="scrolling();"></i>
 			</div>
 			<blockquote class="main__about__quote">
 				<i class="fas fa-quote-left main__about__quote__image"></i>
-				<h3 class="main__about__quote__text">
-					Make it work, make it right, make it fast
-				</h3>
+				<h3 class="main__about__quote__text">Make it work, make it right, make it fast</h3>
 				<cite class="main__about__quote__author">
 					<a
 						href="https://en.wikipedia.org/wiki/Ralph_Johnson_(computer_scientist)"
@@ -136,12 +130,8 @@
 			</blockquote>
 			<p class="copyrights__text">
 				Made with materials, designed by
-				<a class="copyrights__link" href="http://www.freepik.com"
-					>macrovector / Freepik</a
-				>, and
-				<a class="copyrights__link" href="https://dribbble.com/realvjy"
-					>Vijay Verma</a
-				>
+				<a class="copyrights__link" href="http://www.freepik.com">macrovector / Freepik</a>, and
+				<a class="copyrights__link" href="https://dribbble.com/realvjy">Vijay Verma</a>
 			</p>
 		</main>
 		<!-- end of right side main section -->
